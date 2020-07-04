@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">生活如期</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">池上蜉蝣</string>
+    <string name="nav_header_subtitle">等风来，追风去</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">设置</string>
+
+    <string name="menu_home">主页</string>
+    <string name="menu_search">搜索</string>
+    <string name="menu_manage">管理</string>
+    <string name="menu_slideshow">生活</string>
+    <string name="menu_tools">设置</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_relation">联系</string>
+</resources>

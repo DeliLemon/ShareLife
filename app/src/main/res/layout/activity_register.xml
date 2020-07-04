@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/registerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText5_register_account"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginBottom="30dp"
+                android:ems="10"
+                android:hint="手机号/账号"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editText6_register_passwd1"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginBottom="30dp"
+                android:ems="10"
+                android:hint="密码（0-9、a-Z、. _）"
+                android:inputType="text|textPassword" />
+
+            <EditText
+                android:id="@+id/editText7_register_passwd2"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginBottom="30dp"
+                android:ems="10"
+                android:hint="确认密码"
+                android:inputType="text|textPassword" />
+
+            <EditText
+                android:id="@+id/editText8_register_name"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginBottom="30dp"
+                android:ems="10"
+                android:hint="昵称"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/editText9_register_class"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginBottom="30dp"
+                android:ems="10"
+                android:hint="个性签名"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/button6_register_refg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="80dp"
+                android:background="@drawable/shape_register_btn"
+                android:text="注册" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

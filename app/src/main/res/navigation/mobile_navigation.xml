@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.it.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.it.ui.search.SearchFragment"
+        android:label="@string/menu_search"
+        tools:layout="@layout/search" />
+    <fragment
+        android:id="@+id/nav_manage"
+        android:name="com.it.ui.manage.ManageFragment"
+        android:label="@string/menu_manage"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_other_space"
+        android:name="com.it.ui.search.OtherSpaceFragment"
+        android:label="个人空间"
+        tools:layout="@layout/fragment_space"
+        />
+    <fragment
+        android:id="@+id/nav_read"
+        android:name="com.it.ui.home.ReadFragment"
+        android:label="阅读"
+        tools:layout="@layout/item_cardview_readable"
+        />
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.it.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.it.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.it.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_relation"
+        android:name="com.it.ui.attention.AttentionFragment"
+        android:label="@string/menu_relation"
+        tools:layout="@layout/fragment_attention" />
+</navigation>

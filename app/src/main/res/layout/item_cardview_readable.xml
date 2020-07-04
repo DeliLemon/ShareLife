@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        app:cardMaxElevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/item_image_read"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/background1" />
+
+            <EditText
+                android:id="@+id/item_content_read"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:enabled="false"
+                android:focusable="auto"
+                android:scrollbars="vertical"
+                android:text="听风等雨"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/item_locating_btn_write"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="10dp"
+
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/circular"
+                    app:srcCompat="@android:drawable/ic_menu_mylocation"
+                    tools:clickable="false" />
+
+                <TextView
+                    android:id="@+id/item_locating_tv_read"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="TextView" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
